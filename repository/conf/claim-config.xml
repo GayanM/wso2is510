@@ -243,6 +243,227 @@
                 <Description>Display Name</Description>
             </Claim>
 
+			<!--Start Extended Claims for SAI Global-->
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/registeredUserID</ClaimURI>
+                		<DisplayName>Registered User ID</DisplayName>
+                		<AttributeID>registeredUserID</AttributeID>
+                		<Description>Registered User ID</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/memberOrgID</ClaimURI>
+                		<DisplayName>Member Organization ID</DisplayName>
+                		<AttributeID>memberOrgID</AttributeID>
+                		<Description>Member Organization ID</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/memberNo</ClaimURI>
+                		<DisplayName>Member No</DisplayName>
+                		<AttributeID>memberNo</AttributeID>
+                		<Description>Member No</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/entryDate</ClaimURI>
+                		<DisplayName>Entry Date</DisplayName>
+                		<AttributeID>entryDate</AttributeID>
+                		<Description>Entry Date</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/stAddress2</ClaimURI>
+                		<DisplayName>Street Address2</DisplayName>
+                		<AttributeID>stAddress2</AttributeID>
+                		<Description>Street Address2</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/suburb</ClaimURI>
+                		<DisplayName>Suburb</DisplayName>
+                		<AttributeID>suburb</AttributeID>
+                		<Description>Suburb</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/countryID</ClaimURI>
+                		<DisplayName>Country ID</DisplayName>
+                		<AttributeID>countryID</AttributeID>
+                		<Description>Country ID</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/fax</ClaimURI>
+                		<DisplayName>Fax</DisplayName>
+                		<AttributeID>fax</AttributeID>
+                		<Description>Fax</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/userID</ClaimURI>
+                		<DisplayName>User ID</DisplayName>
+                		<AttributeID>userID</AttributeID>
+                		<Description>User ID</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/status</ClaimURI>
+                		<DisplayName>Status</DisplayName>
+                		<AttributeID>status</AttributeID>
+                		<Description>Status</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/currencyCode</ClaimURI>
+                		<DisplayName>Currency Code</DisplayName>
+                		<AttributeID>currencyCode</AttributeID>
+                		<Description>Currency Code</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/languageCode</ClaimURI>
+                		<DisplayName>Language Code</DisplayName>
+                		<AttributeID>languageCode</AttributeID>
+                		<Description>Language Code</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/indClassID</ClaimURI>
+                		<DisplayName>Ind Class ID</DisplayName>
+                		<AttributeID>indClassID</AttributeID>
+                		<Description>Ind Class ID</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/deliveryLocationID</ClaimURI>
+                		<DisplayName>Delivery Location ID</DisplayName>
+                		<AttributeID>deliveryLocationID</AttributeID>
+                		<Description>Delivery Location ID</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/preferredPublisher</ClaimURI>
+                		<DisplayName>Preferred Publisher</DisplayName>
+                		<AttributeID>preferredPublisher</AttributeID>
+                		<Description>Preferred Publisher</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/UKVATNo</ClaimURI>
+                		<DisplayName>UK VAT No</DisplayName>
+                		<AttributeID>UKVATNo</AttributeID>
+                		<Description>UK VAT No</Description>
+        		</Claim>
+			
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/source</ClaimURI>
+                		<DisplayName>Source</DisplayName>
+                		<AttributeID>source</AttributeID>
+                		<Description>Source</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/deliveryStAddress</ClaimURI>
+                		<DisplayName>Delivery Street Address</DisplayName>
+                		<AttributeID>deliveryStAddress</AttributeID>
+                		<Description>Delivery Street Address</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/deliveryStAddress2</ClaimURI>
+                		<DisplayName>Delivery Street Address</DisplayName>
+                		<AttributeID>deliveryStAddress2</AttributeID>
+                		<Description>Delivery Street Address</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/deliverySuburb</ClaimURI>
+                		<DisplayName>Delivery Suburb</DisplayName>
+                		<AttributeID>deliverySuburb</AttributeID>
+                		<Description>Delivery Suburb</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/deliveryState</ClaimURI>
+                		<DisplayName>Delivery State</DisplayName>
+                		<AttributeID>deliveryState</AttributeID>
+                		<Description>Delivery State</Description>
+        		</Claim>
+			
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/deliveryPostcode</ClaimURI>
+                		<DisplayName>Delivery Post Code</DisplayName>
+                		<AttributeID>deliveryPostcode</AttributeID>
+                		<Description>Delivery Post Code</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/deliveryCountryID</ClaimURI>
+                		<DisplayName>Delivery Country ID</DisplayName>
+                		<AttributeID>deliveryCountryID</AttributeID>
+                		<Description>Delivery Country ID</Description>
+        		</Claim>
+			
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/VATNotRegistered</ClaimURI>
+                		<DisplayName>VAT Not Registered</DisplayName>
+                		<AttributeID>VATNotRegistered</AttributeID>
+                		<Description>VAT Not Registered</Description>
+        		</Claim>
+			
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/VATExempt</ClaimURI>
+                		<DisplayName>VAT Exempt</DisplayName>
+                		<AttributeID>VATExempt</AttributeID>
+                		<Description>VAT Exempt</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/VATMemberCountryCode</ClaimURI>
+                		<DisplayName>VAT Member Country Code</DisplayName>
+                		<AttributeID>VATMemberCountryCode</AttributeID>
+                		<Description>VAT Member Country Code</Description>
+        		</Claim>
+			
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/VATVerified</ClaimURI>
+                		<DisplayName>VAT Verified</DisplayName>
+                		<AttributeID>VATVerified</AttributeID>
+                		<Description>VAT Verified</Description>
+        		</Claim>
+			
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/EPICORMemberNo</ClaimURI>
+                		<DisplayName>EPICOR Member No</DisplayName>
+                		<AttributeID>EPICORMemberNo</AttributeID>
+                		<Description>EPICOR Member No</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/EPICORMemberPIN</ClaimURI>
+                		<DisplayName>EPICOR Member PIN</DisplayName>
+                		<AttributeID>EPICORMemberPIN</AttributeID>
+                		<Description>EPICOR Member PIN</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/EPICORSalt</ClaimURI>
+                		<DisplayName>EPICOR Salt</DisplayName>
+                		<AttributeID>EPICORSalt</AttributeID>
+                		<Description>EPICOR Salt</Description>
+        		</Claim>
+
+			<Claim>
+                		<ClaimURI>http://wso2.org/claims/EPICORPayByAccount</ClaimURI>
+                		<DisplayName>EPICOR Pay By Account</DisplayName>
+                		<AttributeID>EPICORPayByAccount</AttributeID>
+                		<Description>EPICOR Pay By Account</Description>
+        		</Claim>
+
+			<!--End Extended Claims for SAI Global-->
+
 		</Dialect>
 
 		<Dialect dialectURI="http://schemas.xmlsoap.org/ws/2005/05/identity">
@@ -1098,5 +1319,224 @@
 				<Description>Country name component</Description>
 		    </Claim>
 		</Dialect>
+		<!-- SAI Global SCIM extensions Start-->
+		<Dialect dialectURI="urn:scim:schemas:extension:wso2:1.0:wso2Extension">
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.registeredUserID</ClaimURI>
+				<DisplayName>Registered User ID</DisplayName>
+				<AttributeID>registeredUserID</AttributeID>
+				<Description>Registered User ID</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.memberOrgID</ClaimURI>
+				<DisplayName>Member Organization ID</DisplayName>
+				<AttributeID>memberOrgID</AttributeID>
+				<Description>Member Organization ID</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.memberNo</ClaimURI>
+				<DisplayName>Member No</DisplayName>
+				<AttributeID>memberNo</AttributeID>
+				<Description>Member No</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.entryDate</ClaimURI>
+				<DisplayName>Entry Date</DisplayName>
+				<AttributeID>entryDate</AttributeID>
+				<Description>Entry Date</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.company</ClaimURI>
+				<DisplayName>Organization Name</DisplayName>
+				<AttributeID>organizationName</AttributeID>
+				<Description>Organization Name</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.stAddress2</ClaimURI>
+				<DisplayName>Street Address2</DisplayName>
+				<AttributeID>stAddress2</AttributeID>
+				<Description>Street Address2</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.suburb</ClaimURI>
+				<DisplayName>Suburb</DisplayName>
+				<AttributeID>suburb</AttributeID>
+				<Description>Suburb</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.state</ClaimURI>
+				<DisplayName>State Or Province Name</DisplayName>
+				<AttributeID>stateOrProvinceName</AttributeID>
+				<Description>State Or Province Name</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.fax</ClaimURI>
+				<DisplayName>Fax</DisplayName>
+				<AttributeID>fax</AttributeID>
+				<Description>Fax</Description>
+			</Claim>
+			 
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.status</ClaimURI>
+				<DisplayName>Status</DisplayName>
+				<AttributeID>status</AttributeID>
+				<Description>Status</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.currencyCode</ClaimURI>
+				<DisplayName>Currency Code</DisplayName>
+				<AttributeID>currencyCode</AttributeID>
+				<Description>Currency Code</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.languageCode</ClaimURI>
+				<DisplayName>Language Code</DisplayName>
+				<AttributeID>languageCode</AttributeID>
+				<Description>Language Code</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.indClassID</ClaimURI>
+				<DisplayName>IND Class ID</DisplayName>
+				<AttributeID>indClassID</AttributeID>
+				<Description>IND Class ID</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.deliveryLocationID</ClaimURI>
+				<DisplayName>Delivery Location ID</DisplayName>
+				<AttributeID>deliveryLocationID</AttributeID>
+				<Description>Delivery Location ID</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.preferredPublisher</ClaimURI>
+				<DisplayName>Preferred Publisher</DisplayName>
+				<AttributeID>preferredPublisher</AttributeID>
+				<Description>Preferred Publisher</Description>
+			</Claim>	
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.UKVATNo</ClaimURI>
+				<DisplayName>UK VAT No</DisplayName>
+				<AttributeID>UKVATNo</AttributeID>
+				<Description>UK VAT No</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.source</ClaimURI>
+				<DisplayName>Source</DisplayName>
+				<AttributeID>source</AttributeID>
+				<Description>Source</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.deliveryStAddress</ClaimURI>
+				<DisplayName>Delivery Street Address</DisplayName>
+				<AttributeID>deliveryStAddress</AttributeID>
+				<Description>Delivery Street Address</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.deliveryStAddress2</ClaimURI>
+				<DisplayName>Delivery Street Address2</DisplayName>
+				<AttributeID>deliveryStAddress2</AttributeID>
+				<Description>Delivery Street Address2</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.deliverySuburb</ClaimURI>
+				<DisplayName>Delivery Suburb</DisplayName>
+				<AttributeID>deliverySuburb</AttributeID>
+				<Description>Delivery Suburb</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.deliveryState</ClaimURI>
+				<DisplayName>Delivery State</DisplayName>
+				<AttributeID>deliveryState</AttributeID>
+				<Description>Delivery State</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.deliveryPostcode</ClaimURI>
+				<DisplayName>Delivery Post Code</DisplayName>
+				<AttributeID>deliveryPostcode</AttributeID>
+				<Description>Delivery Post Code</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.deliveryCountryID</ClaimURI>
+				<DisplayName>Delivery Country ID</DisplayName>
+				<AttributeID>deliveryCountryID</AttributeID>
+				<Description>Delivery Country ID</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.VATNotRegistered</ClaimURI>
+				<DisplayName>VAT Not Registered</DisplayName>
+				<AttributeID>VATNotRegistered</AttributeID>
+				<Description>VAT Not Registered</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.VATExempt</ClaimURI>
+				<DisplayName>VAT Exempt</DisplayName>
+				<AttributeID>VATExempt</AttributeID>
+				<Description>VAT Exempt</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.VATMemberCountryCode</ClaimURI>
+				<DisplayName>VAT Member Country Code</DisplayName>
+				<AttributeID>VATMemberCountryCode</AttributeID>
+				<Description>VAT Member Country Code</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.VATVerified</ClaimURI>
+				<DisplayName>VAT Verified</DisplayName>
+				<AttributeID>VATVerified</AttributeID>
+				<Description>VAT Verified</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.EPICORMemberNo</ClaimURI>
+				<DisplayName>EPICOR Member No</DisplayName>
+				<AttributeID>EPICORMemberNo</AttributeID>
+				<Description>EPICOR Member No</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.EPICORMemberPIN</ClaimURI>
+				<DisplayName>EPICOR Member PIN</DisplayName>
+				<AttributeID>EPICORMemberPIN</AttributeID>
+				<Description>EPICOR Member PIN</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.EPICORMemberPIN</ClaimURI>
+				<DisplayName>EPICOR Member PIN</DisplayName>
+				<AttributeID>EPICORMemberPIN</AttributeID>
+				<Description>EPICOR Member PIN</Description>
+			</Claim>
+
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.EPICORSalt</ClaimURI>
+				<DisplayName>EPICOR Salt</DisplayName>
+				<AttributeID>EPICORSalt</AttributeID>
+				<Description>EPICOR Salt</Description>
+			</Claim>
+			
+			<Claim>
+				<ClaimURI>urn:scim:schemas:extension:wso2:1.0:wso2Extension.EPICORPayByAccount</ClaimURI>
+				<DisplayName>EPICOR Pay By Account</DisplayName>
+				<AttributeID>EPICORPayByAccount</AttributeID>
+				<Description>EPICOR Pay By Account</Description>
+			</Claim>	
+		</Dialect>
+		<!-- SAI Global SCIM extensions End-->
 	</Dialects>
 </ClaimConfig>
